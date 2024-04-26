@@ -30,3 +30,18 @@ return x + y - z
 
 let combineoperators : number = operators(44, 33, 33);
 console.log (combineoperators)
+
+//ex5
+function speaker (a : string,b : string ){
+return a + b
+}
+let speaker1 = speaker("swtich on,","fan on");
+console.log(speaker1);
+
+//ex6
+
+ function tv(p1 : string, p2 : string) {
+    return p1 + p2
+}
+let eletric = tv("switch off,", "tv off");
+console.log (eletric);
